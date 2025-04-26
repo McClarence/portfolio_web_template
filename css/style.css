@@ -21,3 +21,28 @@ ul {
 img {
     width: 100%;
 }
+
+/* ---- HEADER ---- */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: 1100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 130px;
+    }
+}
+
+.header {
+    margin: 1.5rem auto;
+}
+
+.main-menu {
+    display: flex;
+    gap: 1rem;
+}
