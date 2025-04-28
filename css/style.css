@@ -134,9 +134,33 @@ header {
 }
 
 
+/* services */
+.service {
+    position: relative;
+    top: -3rem;
+}
 
+.service h3 {
+    text-align: center;
+}
 
+.service-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1.5rem;
+    gap: 2rem;
+}
 
+.web,
+.app,
+.photography {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 120px;
+    }
+}
 
 /* media queries */
 @media (min-width: 768px) {
@@ -270,4 +294,20 @@ header {
     .about-buttons {
         margin-top: 25px;
     }
+
+    /* service*/
+    .service {
+        margin-top: 12em;
+    }
+
+    .service h3 {
+        text-align: center;
+    }
+
+    .service-flex {
+        flex-direction: row;
+        margin: 1rem 1.5rem;
+        gap: 2rem;
+    }
+
 }
