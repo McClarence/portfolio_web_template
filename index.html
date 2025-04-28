@@ -16,17 +16,17 @@
 <body>
     <header>
         <div class="container">
-            <img src="logo.png" alt="Logo" class="logo">
+            <img src="assets/profile.png" alt="Logo" class="logo">
 
             <nav>
                 <ul class="main-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Hire Me</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#page">Pages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hire">Hire Me</a></li>
                 </ul>
             </nav>
 
@@ -59,10 +59,10 @@
     </section>
 
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-container">
             <div class="about-logo">
-                <img src="assets/profile.png" alt="Hi">
+                <img src="assets/profile.png" alt="profile-img">
             </div>
             <div class="bio-detail">
                 <div class="about-text">
@@ -79,7 +79,7 @@
                     <hr>
                 </div>
 
-                <div class="contact">
+                <div class="contact" id="contact">
                     <div class="personal">
                         <ul>
                             <li><span>Name:</span> John Watson</li>
@@ -95,7 +95,7 @@
 
                 </div>
                 <div class="socials">
-                    <h4>Follow Me on</h4>
+                    <h4>Follow Me:</h4>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-behance"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -103,7 +103,51 @@
                         <a href=" #"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
+
+                <div class="about-buttons">
+                    <div>
+                        <a href="#" class="btn-primary" id="hire">Hire Me</a>
+                    </div>
+                    <div class="about-cv">
+                        <a href="#" class="btn-primary">Download CV</a>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section class="services" id="service">
+        <h3>What I Do For You</h3>
+
+        <div class="service-flex">
+            <div class="web">
+                <img src="" alt="">
+                <h4>Web Development</h4>
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus veritatis minima ullam
+                rerum
+                alias officiis rem dignissimos est pariatur.
+                <p>
+            </div>
+            <div class="app">
+                <img src="" alt="">
+                <h4>Web Development</h4>
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus veritatis minima ullam
+                rerum
+                alias officiis rem dignissimos est pariatur.
+                <p>
+            </div>
+            <div class="photography">
+                <img src="" alt="">
+                <h4>Web Development</h4>
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus veritatis minima ullam
+                rerum
+                alias officiis rem dignissimos est pariatur.
+                <p>
+            </div>
+
         </div>
     </section>
 
